@@ -1,2 +1,5 @@
 streamlit
-openai
+torch           # CPU build is fine on Streamlit Cloud
+transformers
+sentencepiece   # required for MarianMT
+Pillow
